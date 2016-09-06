@@ -1,0 +1,31 @@
+{
+    "name": "aaphp/injected",
+    "type": "library",
+    "description": "Simple but fast PHP parameter resolver, callable invoker, Interop container",
+    "keywords": ["callable","parameter","resolver","container","interop"],
+    "homepage": "https://github.com/aaphp/injected",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kosit Supanyo",
+            "email": "webdevxp.com@gmail.com",
+            "homepage": "https://github.com/aaphp",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.4.0",
+        "container-interop/container-interop": "^1.1",
+        "aaphp/utilized": "^1.0"
+    },
+    "provide": {
+        "container-interop/container-interop-implementation": "1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "aaphp\\Injected\\": "src/"
+        }
+    }
+}

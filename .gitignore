@@ -1,0 +1,8 @@
+.DS_Store
+.Trashes
+.vscode
+*.bat
+Thumbs.db
+composer.lock
+phpunit.xml
+vendor/
